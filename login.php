@@ -31,7 +31,7 @@ margin: 150px 100px;
         }
 .str-input{
       font-size: 14px;
-        padding-left: 20px;
+        padding-left: 40px;
 }
     </style>
 </head>
@@ -40,8 +40,8 @@ margin: 150px 100px;
         <p style="padding: 10px 30px;
           text-align: center;
             font-size: 20px;;text-align:center">北京大学食堂管理系统</p>
-        <p class="str-input">用户: <input type="text" name="username" value="" size=30></p>
-        <p class="str-input">密码: <input type="password" name="password" value="" size=30></p>
+        <p class="str-input">用户: <input type="text" name="username" value="" size=20></p>
+        <p class="str-input">密码: <input type="password" name="password" value="" size=20></p>
         <p style="text-align:center"><input type="submit" value="登录"> <input type="reset" value="重置"></p>
     </form>
 </body>
