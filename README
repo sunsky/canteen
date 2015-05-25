@@ -1,6 +1,6 @@
 这是一个简单的餐厅菜单管理系统 （一个课程设计作业)
 
-PHP+MySQL+Apache
+PHP+MySQL+NGINX
 
 本管理系统共有四种业务员:  普通消费者，消费记录查看者，进货记录者，和管理员
 普通消费者： 只有模拟刷卡消费的权限
@@ -26,7 +26,7 @@ admin_manage.php 管理员的管理页面
 auth_login.php   对登录的用户名和密码进行认证
 conn.php         连接数据库
 init.php         应用系统的初始化，用于生成表和创建一个管理员
-login.html       用于输入用户名和密码
+login.php       用于输入用户名和密码
 logout.php       注销
 update_password.php 用于修改密码，输入旧密码和新的密码
 update_pw.php       用于修改密码，连接数据库，修改值
