@@ -1,0 +1,48 @@
+这是一个简单的餐厅菜单管理系统 （一个课程设计作业)
+
+PHP+MySQL+Apache
+
+本管理系统共有四种业务员:  普通消费者，消费记录查看者，进货记录者，和管理员
+普通消费者： 只有模拟刷卡消费的权限
+消费记录查看者： 有查看所有消费记录和查询某个学生消费记录的权限 (proid=2)
+进货记录者： 添加进货记录(proid=1)
+管理员： 所有权限(proid=0)
+
+数据库表
+-------------------+
+ add_custom_record |  消费记录表
+ add_material      | 食材进货
+ custom            |  消费者信息
+ food              |  食物
+ jobs              |  员工职位表
+ manage            |  帐号表
+ material          |  食材表
+ student           |   学生信息表 
+ supply            |    供应商
+ worker            |   员工表
+-------------------+
+
+admin_manage.php 管理员的管理页面
+auth_login.php   对登录的用户名和密码进行认证
+conn.php         连接数据库
+init.php         应用系统的初始化，用于生成表和创建一个管理员
+login.html       用于输入用户名和密码
+logout.php       注销
+update_password.php 用于修改密码，输入旧密码和新的密码
+update_pw.php       用于修改密码，连接数据库，修改值
+util.php         工具文件，有过滤殊字符和重定向
+
+目录 student ，对学生信息的增，删，查
+目录 custom   , 对消费者的增，修，查
+目录 post        , 对职位的增，删，改,查
+目录 worker    ,对员工的增，删，改查
+目录 food        ,对食物的增，删，改查
+目录 supply    ,对供应商的增，删，改查
+目录 material ,对食材的增，删，改查
+目录 add_material   ,添加，查询食材进货
+目录 manage,  对管理帐号的增，删，查修
+目录 add_custom,  模拟刷卡消费，查询消费记录
+目录 template,   模板文件
+目录 static          存放静态文件,如图片文件，CSS文件
+
+

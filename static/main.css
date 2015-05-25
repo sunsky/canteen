@@ -1,0 +1,10 @@
+#nav {clear:both;}
+#nav ul li {float:left; list-style:none; margin:3px; padding:3px;}
+#bottom {height:25px; text-align:center; clear:both}
+#m-left {float:left; border-right:2px dotted #33ccff; width:105px;}
+#m-left ul {margin:0px; padding:0px;}
+#m-left ul li {float:left; list-style:none; margin:3px; padding:3px; background:#ccc; clear:both; width:100px; text-align:center; margin:3px; font-size:14px;}
+#m-left ul li a {color:black; text-decoration:none;}
+#m-left ul li a:hover {color:white; background:#6699ff}
+
+#tail {margin-top:20px; padding-top:20px;}

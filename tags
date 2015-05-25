@@ -1,0 +1,353 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+account	add_material/add_material_record.php	/^$account = remove_unsafe_char($_POST['account']);$/;"	v
+acount	worker/m-worker.php	/^$acount = mysql_num_rows($result);$/;"	v
+add_admin	init.php	/^function add_admin (){$/;"	f
+add_jobs	init.php	/^function add_jobs () {$/;"	f
+add_material	init.php	/^$add_material = "create table if not exists add_material ($/;"	v
+add_worker	init.php	/^function add_worker (){$/;"	f
+address	supply/add_supply.php	/^$address = isset($_POST['address'])? $_POST['address'] : "";$/;"	v
+address	supply/add_supply.php	/^$address = remove_unsafe_char($address);$/;"	v
+address	supply/save_edit_supply.php	/^$address = isset($_POST['address'])? $_POST['address'] : "";$/;"	v
+address	supply/save_edit_supply.php	/^$address = remove_unsafe_char($address);$/;"	v
+arr	auth_login.php	/^$arr = mysql_fetch_array($result);$/;"	v
+canteen_admin	init.php	/^    $canteen_admin = "mkw";$/;"	v
+canteen_admin_pass	init.php	/^    $canteen_admin_pass = "hello";$/;"	v
+canteen_admin_pass_cry	init.php	/^    $canteen_admin_pass_cry = md5($canteen_admin_pass);$/;"	v
+chars	util.php	/^    $chars = array(" ","%","\/","\\\\",'"',"'","=",">",'<');$/;"	v
+create_table	init.php	/^function create_table ($sql,$table){$/;"	f
+custom	add_custom/add_custom_record.php	/^$custom = mysql_fetch_array($result);$/;"	v
+custom	init.php	/^$custom = "create table if not exists custom ($/;"	v
+custom_record	init.php	/^$custom_record = "create table if not exists add_custom_record ($/;"	v
+db	conn.php	/^$db = mysql_connect($hostname, $username,$password);$/;"	v
+db	init.php	/^$db = mysql_connect($hostname, $username,$password);$/;"	v
+db_name	conn.php	/^$db_name = "canteen";$/;"	v
+db_name	init.php	/^$db_name = "canteen"; \/\/ 餐厅$/;"	v
+desc	food/add_food.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	food/add_food.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+desc	food/save_edit_food.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	food/save_edit_food.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+desc	material/add_material.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	material/add_material.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+desc	material/save_edit_material.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	material/save_edit_material.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+desc	supply/add_supply.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	supply/add_supply.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+desc	supply/save_edit_supply.php	/^$desc = isset($_POST['desc']) ? $_POST['desc'] : "";$/;"	v
+desc	supply/save_edit_supply.php	/^$desc = remove_unsafe_char($desc);$/;"	v
+food	add_custom/add_custom_record.php	/^    $food = remove_unsafe_char($food);$/;"	v
+food	init.php	/^$food = "create table if not exists food ($/;"	v
+foods	add_custom/add_custom_record.php	/^$foods = $_POST['food'];$/;"	v
+handle_login	util.php	/^function handle_login(){$/;"	f
+has_unsafe_char	util.php	/^function has_unsafe_char($str){$/;"	f
+hostname	conn.php	/^$hostname = "localhost";$/;"	v
+hostname	init.php	/^$hostname = "localhost";$/;"	v
+id	add_custom/add_custom_record.php	/^$id = remove_unsafe_char($_POST['id']);$/;"	v
+id	add_custom/show_custom_record.php	/^$id = remove_unsafe_char ($_GET['id']);$/;"	v
+id	custom/add_custom.php	/^    $id = $_POST['id'];$/;"	v
+id	custom/add_custom.php	/^    $id = remove_unsafe_char($id);$/;"	v
+id	custom/edit_save_custom.php	/^$id = remove_unsafe_char($_POST['id']);$/;"	v
+id	custom/search_custom.php	/^$id = $_GET['id'];$/;"	v
+id	custom/search_custom.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	food/del_food.php	/^$id = $_GET['id'];$/;"	v
+id	food/del_food.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	food/edit_food.php	/^$id = $_GET['id'];$/;"	v
+id	food/edit_food.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	food/save_edit_food.php	/^$id = $_POST['id'];$/;"	v
+id	food/save_edit_food.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	manage/del_manager.php	/^$id = $_GET['id'];$/;"	v
+id	manage/del_manager.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	manage/edit_manager.php	/^$id = $_GET['id'];$/;"	v
+id	manage/edit_manager.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	manage/save_edit_manager.php	/^$id = $_POST['id'];$/;"	v
+id	manage/save_edit_manager.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	material/del_material.php	/^$id = $_GET['id'];$/;"	v
+id	material/del_material.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	material/edit_material.php	/^$id = $_GET['id'];$/;"	v
+id	material/edit_material.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	material/save_edit_material.php	/^$id = $_POST['id'];$/;"	v
+id	material/save_edit_material.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	post/del_post.php	/^$id = $_GET['id'];$/;"	v
+id	post/del_post.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	post/edit_post.php	/^$id = $_GET['id'];$/;"	v
+id	post/edit_post.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	post/save_edit_post.php	/^$id = $_POST['id'];$/;"	v
+id	post/save_edit_post.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	student/add_student.php	/^    $id = $_POST['id'];$/;"	v
+id	student/search_student.php	/^$id = $_GET['id'];$/;"	v
+id	student/search_student.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	supply/del_supply.php	/^$id = remove_unsafe_char($_GET['id']);$/;"	v
+id	supply/edit_supply.php	/^$id = remove_unsafe_char($_GET['id']);$/;"	v
+id	supply/save_edit_supply.php	/^$id = $_POST['id'];$/;"	v
+id	supply/save_edit_supply.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	supply/show_supply.php	/^$id = remove_unsafe_char($_GET['id']);$/;"	v
+id	worker/del_worker.php	/^$id = $_GET['id'];$/;"	v
+id	worker/del_worker.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	worker/edit_worker.php	/^$id = $_GET['id'];$/;"	v
+id	worker/edit_worker.php	/^$id = remove_unsafe_char($id);$/;"	v
+id	worker/search_worker.php	/^$id = remove_unsafe_char($_GET['id']);$/;"	v
+id	worker/update_worker_submit.php	/^$id = $_POST['id'];$/;"	v
+id	worker/update_worker_submit.php	/^$id = remove_unsafe_char(intval($id));$/;"	v
+is_admin	util.php	/^function is_admin(){$/;"	f
+is_user	util.php	/^function is_user(){$/;"	f
+jid	worker/add_worker_submit.php	/^$jid = $_POST['job'];$/;"	v
+jid	worker/add_worker_submit.php	/^$jid = intval(remove_unsafe_char($jid));$/;"	v
+jid	worker/update_worker_submit.php	/^$jid = $_POST['job'];$/;"	v
+jid	worker/update_worker_submit.php	/^$jid = intval(remove_unsafe_char($jid));$/;"	v
+jobs	init.php	/^$jobs = "create table if not exists jobs ( $/;"	v
+jumpto	util.php	/^function jumpto($str){$/;"	f
+m1_login	util.php	/^function m1_login(){$/;"	f
+m2_login	util.php	/^function m2_login(){$/;"	f
+manage	init.php	/^$manage = "create table if not exists manage ($/;"	v
+mate	add_material/add_material_record.php	/^$mate = remove_unsafe_char($_POST['material']);$/;"	v
+material	init.php	/^$material = "create table if not exists material ($/;"	v
+money	add_custom/add_custom_record.php	/^$money = 0;$/;"	v
+money	custom/add_custom.php	/^    $money = $_POST['money'];$/;"	v
+money	custom/add_custom.php	/^    $money = remove_unsafe_char($money);$/;"	v
+money	custom/edit_save_custom.php	/^$money = floatval(remove_unsafe_char($_POST['money']));$/;"	v
+mydie	init.php	/^function mydie($info){$/;"	f
+n	add_custom/add_eating.php	/^                        $n = $n + 1;$/;"	v
+n	add_custom/add_eating.php	/^                    $n = 1;$/;"	v
+n	add_custom/show_custom_record.php	/^        $n = $n + 1;$/;"	v
+n	add_custom/show_custom_record.php	/^    $n = 1;$/;"	v
+n	add_custom/showall_custom_record.php	/^        $n = $n + 1;$/;"	v
+n	add_custom/showall_custom_record.php	/^    $n = 1;$/;"	v
+n	add_material/show_add_material.php	/^    $n = $n+1;$/;"	v
+n	add_material/show_add_material.php	/^$n = 1;$/;"	v
+n	food/m-food.php	/^    $n = $n + 1;$/;"	v
+n	food/m-food.php	/^$n = 1;$/;"	v
+n	manage/m-manage.php	/^    $n = $n + 1;$/;"	v
+n	manage/m-manage.php	/^$n = 1;$/;"	v
+n	material/m-material.php	/^    $n = $n + 1;$/;"	v
+n	material/m-material.php	/^$n = 1;$/;"	v
+n	supply/m-supply.php	/^    $n = $n + 1;$/;"	v
+n	supply/m-supply.php	/^$n = 1;$/;"	v
+n	worker/m-worker.php	/^    $n = $n + 1;$/;"	v
+n	worker/m-worker.php	/^$n = 1;$/;"	v
+name	food/add_food.php	/^$name = $_POST['name'];$/;"	v
+name	food/add_food.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	food/save_edit_food.php	/^$name = $_POST['name'];$/;"	v
+name	food/save_edit_food.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	material/add_material.php	/^$name = $_POST['name'];$/;"	v
+name	material/add_material.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	material/save_edit_material.php	/^$name = $_POST['name'];$/;"	v
+name	material/save_edit_material.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	post/add_post.php	/^$name = remove_unsafe_char($_POST['name']);$/;"	v
+name	post/save_edit_post.php	/^$name = $_POST['name'];$/;"	v
+name	post/save_edit_post.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	student/add_student.php	/^    $name = $_POST['name'];$/;"	v
+name	supply/add_supply.php	/^$name = $_POST['name'];$/;"	v
+name	supply/add_supply.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	supply/save_edit_supply.php	/^$name = $_POST['name'];$/;"	v
+name	supply/save_edit_supply.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	worker/add_worker_submit.php	/^$name = $_POST['name'];$/;"	v
+name	worker/add_worker_submit.php	/^$name = remove_unsafe_char($name);$/;"	v
+name	worker/update_worker_submit.php	/^$name = $_POST['name'];$/;"	v
+name	worker/update_worker_submit.php	/^$name = remove_unsafe_char($name);$/;"	v
+new_pw1	update_pw.php	/^    $new_pw1 = md5($_POST['pw1']);$/;"	v
+new_pw2	update_pw.php	/^    $new_pw2 = md5($_POST['pw2']);$/;"	v
+old_pw	update_pw.php	/^    $old_pw  = md5($_POST['pw0']);$/;"	v
+password	auth_login.php	/^$password = md5(remove_unsafe_char(trim($_POST['password'])));$/;"	v
+password	conn.php	/^$password = "p@ssw0rd";$/;"	v
+password	init.php	/^$password = "p@ssw0rd";$/;"	v
+pr	manage/add_manager.php	/^$pr = $_POST['proi'];$/;"	v
+pr	manage/add_manager.php	/^$pr = intval(remove_unsafe_char($pr));$/;"	v
+pr	manage/save_edit_manager.php	/^$pr = $_POST['proi'];$/;"	v
+pr	manage/save_edit_manager.php	/^$pr = intval(remove_unsafe_char($pr));$/;"	v
+price	add_material/add_material_record.php	/^$price = remove_unsafe_char($_POST['price']);$/;"	v
+price	food/add_food.php	/^$price = $_POST['price'];$/;"	v
+price	food/add_food.php	/^$price = remove_unsafe_char($price);$/;"	v
+price	food/save_edit_food.php	/^$price = $_POST['price'];$/;"	v
+price	food/save_edit_food.php	/^$price = remove_unsafe_char($price);$/;"	v
+pw	manage/add_manager.php	/^$pw = $_POST['password'];$/;"	v
+pw	manage/add_manager.php	/^$pw = md5(remove_unsafe_char($pw));$/;"	v
+pw	manage/save_edit_manager.php	/^$pw = $_POST['password'];$/;"	v
+pw	manage/save_edit_manager.php	/^$pw = md5(remove_unsafe_char($pw));$/;"	v
+ref	auth_login.php	/^    $ref = $_SERVER['HTTP_REFERER'];$/;"	v
+ref	update_pw.php	/^        $ref = $_SERVER['HTTP_REFERER'];$/;"	v
+referer	util.php	/^function referer ($str){$/;"	f
+remove_unsafe_char	util.php	/^function remove_unsafe_char($str){$/;"	f
+result	add_custom/add_custom_record.php	/^$result = mysql_query ($sql,$db);$/;"	v
+result	add_custom/add_eating.php	/^                    $result = mysql_query($sql,$db);$/;"	v
+result	add_custom/show_custom_record.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	add_custom/showall_custom_record.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	add_material/add_material_record.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	add_material/show_add_material.php	/^$result = mysql_query($sql2,$db);$/;"	v
+result	auth_login.php	/^$result = mysql_query("SELECT * FROM manage where username='$username' and password='$password'",$db);$/;"	v
+result	custom/add_custom.php	/^    $result = mysql_query($sql,$db);$/;"	v
+result	custom/edit_save_custom.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	custom/search_custom.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	custom/show_custom.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	food/add_food.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	food/del_food.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	food/edit_food.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	food/m-food.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	food/save_edit_food.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	init.php	/^    $result = mysql_query($sql,$db);$/;"	v
+result	manage/add_manager.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	manage/del_manager.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	manage/edit_manager.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	manage/m-manage.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	manage/save_edit_manager.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	material/add_material.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	material/del_material.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	material/edit_material.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	material/m-material.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	material/save_edit_material.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	post/add_post.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	post/del_post.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	post/edit_post.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	post/m-post.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	post/save_edit_post.php	/^$result = mysql_query($sql_update,$db);$/;"	v
+result	student/add_student.php	/^    $result = mysql_query($sql,$db);$/;"	v
+result	student/del_student.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	student/search_student.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	student/show_student.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/add_supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/del_supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/edit_supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/m-supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/save_edit_supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	supply/show_supply.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	update_pw.php	/^    $result = mysql_query($sql_q,$db);$/;"	v
+result	worker/add_worker.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	worker/add_worker_submit.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	worker/del_worker.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	worker/edit_worker.php	/^$result = mysql_query($sql_job,$db);$/;"	v
+result	worker/m-worker.php	/^$result = mysql_query ($sql,$db);$/;"	v
+result	worker/search_worker.php	/^$result = mysql_query($sql,$db);$/;"	v
+result	worker/update_worker_submit.php	/^$result = mysql_query($sql,$db);$/;"	v
+result2	add_custom/add_custom_record.php	/^    $result2 = mysql_query("select price from food where fid=$food");$/;"	v
+result2	worker/edit_worker.php	/^$result2 = mysql_query($sql ,$db);$/;"	v
+result3	add_custom/add_custom_record.php	/^    $result3 = mysql_query($sql_sub,$db);$/;"	v
+result4	add_custom/add_custom_record.php	/^    $result4 = mysql_query("insert into add_custom_record (cid,money,operator,add_time,add_date) values ('$id',$money,1,now(),curdate())");$/;"	v
+result_1	add_material/m-add_material.php	/^$result_1 = mysql_query($sql_mate,$db);$/;"	v
+result_2	add_material/m-add_material.php	/^$result_2 = mysql_query($sql_supp,$db);$/;"	v
+result_3	add_material/m-add_material.php	/^$result_3 = mysql_query($sql_work,$db);$/;"	v
+row	custom/edit_custom.php	/^$row = mysql_fetch_array(mysql_query("select * from custom,student where cid='$sid' and sid='$sid'"));$/;"	v
+row	custom/edit_save_custom.php	/^$row = mysql_fetch_array(mysql_query("select * from custom where cid='$id'"));$/;"	v
+row	custom/search_custom.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	food/edit_food.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	manage/edit_manager.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	material/edit_material.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	post/edit_post.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	student/search_student.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	supply/edit_supply.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	supply/show_supply.php	/^$row = mysql_fetch_array($result);$/;"	v
+row	update_pw.php	/^    $row = mysql_fetch_array($result);$/;"	v
+row	worker/edit_worker.php	/^$row = mysql_fetch_array($result);$/;"	v
+row2	add_custom/add_custom_record.php	/^    $row2 = mysql_fetch_row($result2);$/;"	v
+row2	worker/edit_worker.php	/^$row2 = mysql_fetch_array($result2);$/;"	v
+s_proi	manage/m-manage.php	/^        $s_proi = "消费查询员";$/;"	v
+s_proi	manage/m-manage.php	/^        $s_proi = "进货记录员";$/;"	v
+salary	post/add_post.php	/^$salary = floatval(remove_unsafe_char($_POST['salary']));$/;"	v
+salary	post/save_edit_post.php	/^$salary = $_POST['salary'];$/;"	v
+salary	post/save_edit_post.php	/^$salary = floatval(remove_unsafe_char($salary));$/;"	v
+sex	student/add_student.php	/^    $sex = isset($_POST['sex']) ? ($_POST['sex']) : "?";$/;"	v
+sex	supply/add_supply.php	/^$sex  = remove_unsafe_char($sex);$/;"	v
+sex	supply/add_supply.php	/^$sex = $_POST['sex'];$/;"	v
+sex	supply/save_edit_supply.php	/^$sex  = remove_unsafe_char($sex);$/;"	v
+sex	supply/save_edit_supply.php	/^$sex = $_POST['sex'];$/;"	v
+sex	worker/add_worker_submit.php	/^$sex = $_POST['sex'];$/;"	v
+sex	worker/add_worker_submit.php	/^$sex = remove_unsafe_char($sex);$/;"	v
+sex	worker/update_worker_submit.php	/^$sex = $_POST['sex'];$/;"	v
+sex	worker/update_worker_submit.php	/^$sex = remove_unsafe_char($sex);$/;"	v
+sid	custom/edit_custom.php	/^$sid = remove_unsafe_char($_GET['sid']);$/;"	v
+sid	student/del_student.php	/^$sid = remove_unsafe_char($_GET['sid']);$/;"	v
+sql	add_custom/add_custom_record.php	/^$sql = "select * from custom where cid=$id";$/;"	v
+sql	add_custom/add_eating.php	/^                    $sql = "select * from food ";$/;"	v
+sql	add_custom/show_custom_record.php	/^$sql = "select * from add_custom_record where cid='$id'";$/;"	v
+sql	add_custom/showall_custom_record.php	/^$sql = "select * from add_custom_record ";$/;"	v
+sql	add_material/add_material_record.php	/^$sql = "insert into add_material (mid,sid,charge,price,amount,add_time) values ($mate,$supp,$work,$price,$account,now())";$/;"	v
+sql	add_material/show_add_material.php	/^$sql = "select add_material.price amprice,account,, from add_material,material,supply,worker where add_material.mid=material.mid and add_material.sid=supply.sid and add_material.charge=worker.wid ";$/;"	v
+sql	custom/add_custom.php	/^    $sql = "insert into custom values ('$id','$money')";$/;"	v
+sql	custom/edit_save_custom.php	/^$sql = "update custom set cur_money = $money  where cid='$id'";$/;"	v
+sql	custom/search_custom.php	/^$sql = "select * from student,custom where sid='$id' and sid=cid";$/;"	v
+sql	custom/show_custom.php	/^$sql = "select * from student,custom where custom.cid=student.sid";$/;"	v
+sql	food/add_food.php	/^$sql = "insert into food (name,description,price) values ('$name','$desc',$price) ";$/;"	v
+sql	food/del_food.php	/^$sql = "delete from food where fid=$id";$/;"	v
+sql	food/edit_food.php	/^$sql = "select * from food where fid='$id'";$/;"	v
+sql	food/m-food.php	/^$sql = "select * from food";$/;"	v
+sql	food/save_edit_food.php	/^$sql = "update food set name='$name',description='$desc',price=$price where fid='$id'";$/;"	v
+sql	init.php	/^    $sql = "insert into jobs (name) values ('系统管理员')";$/;"	v
+sql	init.php	/^    $sql = "insert into manage (username,password,proi) values ('$canteen_admin','$canteen_admin_pass_cry',0)";$/;"	v
+sql	init.php	/^    $sql = "insert into worker (name) values ('系统管理员')";$/;"	v
+sql	manage/add_manager.php	/^$sql = "insert into manage (username,password,proi) values ('$us','$pw',$pr) ";$/;"	v
+sql	manage/del_manager.php	/^$sql = "delete from manage where id=$id";$/;"	v
+sql	manage/edit_manager.php	/^$sql = "select * from manage where id='$id' and proi!=0";$/;"	v
+sql	manage/m-manage.php	/^$sql = "select * from manage where proi!=0";$/;"	v
+sql	manage/save_edit_manager.php	/^$sql = "update manage set username='$us',password='$pw',proi=$pr where id='$id' ";$/;"	v
+sql	material/add_material.php	/^$sql = "insert into material (name,description) values ('$name','$desc') ";$/;"	v
+sql	material/del_material.php	/^$sql = "delete from material where mid=$id";$/;"	v
+sql	material/edit_material.php	/^$sql = "select * from material where mid='$id'";$/;"	v
+sql	material/m-material.php	/^$sql = "select * from material";$/;"	v
+sql	material/save_edit_material.php	/^$sql = "update material set name='$name',description='$desc' where mid='$id'";$/;"	v
+sql	post/add_post.php	/^$sql = "insert into jobs (name,salary) values ('$name',$salary)";$/;"	v
+sql	post/del_post.php	/^$sql = "delete from jobs where jid='$id'";$/;"	v
+sql	post/edit_post.php	/^$sql = "select * from jobs where jid='$id'";$/;"	v
+sql	post/m-post.php	/^$sql = "select * from jobs order by jid desc ";$/;"	v
+sql	post/save_edit_post.php	/^$sql = "select * from jobs where jid='$id'";$/;"	v
+sql	student/add_student.php	/^    $sql = "insert into student (sid,name,sex,tel) values ('$id','$name','$sex','$tel')";$/;"	v
+sql	student/del_student.php	/^$sql = "delete from student where sid='$sid'";$/;"	v
+sql	student/search_student.php	/^$sql = "select * from student where sid='$id'";$/;"	v
+sql	student/show_student.php	/^$sql = "select * from student";$/;"	v
+sql	supply/add_supply.php	/^$sql = "insert into supply (name,sex,tel,address,description,add_time) values ('$name','$sex','$tel','$address','$desc',now())";$/;"	v
+sql	supply/del_supply.php	/^$sql = "delete from supply where sid='$id'";$/;"	v
+sql	supply/edit_supply.php	/^$sql = "select * from supply where sid='$id'";$/;"	v
+sql	supply/m-supply.php	/^$sql = "select * from supply";$/;"	v
+sql	supply/save_edit_supply.php	/^$sql = "update supply set name='$name',sex='$sex',tel='$tel',address='$address',description='$desc',add_time=now() where sid='$id'";$/;"	v
+sql	supply/show_supply.php	/^$sql = "select * from supply where sid='$id'";$/;"	v
+sql	worker/add_worker.php	/^$sql = "select * from jobs";$/;"	v
+sql	worker/add_worker_submit.php	/^$sql = "insert into worker (name,sex,jid) values ('$name','$sex',$jid)";$/;"	v
+sql	worker/del_worker.php	/^$sql = "delete from worker where wid='$id'";$/;"	v
+sql	worker/edit_worker.php	/^$sql = "select * from worker where wid='$id'";$/;"	v
+sql	worker/m-worker.php	/^$sql = "select wid,name from worker";$/;"	v
+sql	worker/search_worker.php	/^    $sql = "select wid,worker.name wname,sex,jobs.name jname,salary from worker,jobs where worker.jid = jobs.jid and worker.name like '$id%'";$/;"	v
+sql	worker/search_worker.php	/^    $sql = "select wid,worker.name wname,sex,jobs.name jname,salary from worker,jobs where worker.wid='$id'and worker.jid = jobs.jid";$/;"	v
+sql	worker/update_worker_submit.php	/^$sql = "update worker set name='$name',sex='$sex',jid=$jid where wid=$id";$/;"	v
+sql2	add_material/show_add_material.php	/^$sql2 = "select * from add_material,material where material.mid=add_material.mid";$/;"	v
+sql_exist	manage/add_manager.php	/^$sql_exist = "select * from manage where username='$us'";$/;"	v
+sql_exist	manage/save_edit_manager.php	/^$sql_exist = "select * from manage where username='$us' and id!=$id";$/;"	v
+sql_job	worker/edit_worker.php	/^$sql_job = "select * from jobs";$/;"	v
+sql_mate	add_material/m-add_material.php	/^$sql_mate = "select * from material";$/;"	v
+sql_q	update_pw.php	/^    $sql_q = "select * from manage where username='$user' and password='$old_pw'";$/;"	v
+sql_sub	add_custom/add_custom_record.php	/^    $sql_sub = "update custom set cur_money = cur_money-$money where cid=$id";$/;"	v
+sql_supp	add_material/m-add_material.php	/^$sql_supp = "select * from supply";$/;"	v
+sql_u	update_pw.php	/^        $sql_u = "update manage set password='$new_pw1' where username='$user' and password='$old_pw'";$/;"	v
+sql_update	post/save_edit_post.php	/^$sql_update = "update jobs set name='$name' , salary=$salary where jid='$id'";$/;"	v
+sql_work	add_material/m-add_material.php	/^$sql_work = "select * from worker";$/;"	v
+student	init.php	/^$student = "create table if not exists student ($/;"	v
+supp	add_material/add_material_record.php	/^$supp = remove_unsafe_char($_POST['supply']);$/;"	v
+supply	init.php	/^$supply = "create table if not exists supply ($/;"	v
+tel	student/add_student.php	/^    $tel = isset($_POST['tel']) ? ($_POST['tel']) : "";$/;"	v
+tel	supply/add_supply.php	/^$tel  = remove_unsafe_char($tel);$/;"	v
+tel	supply/add_supply.php	/^$tel = $_POST['tel'];$/;"	v
+tel	supply/save_edit_supply.php	/^$tel  = remove_unsafe_char($tel);$/;"	v
+tel	supply/save_edit_supply.php	/^$tel = $_POST['tel'];$/;"	v
+temp	add_custom/show_custom_record.php	/^        $temp = $row['operator']==1? "消费" : "充值";$/;"	v
+temp	add_custom/showall_custom_record.php	/^        $temp = $row['operator']==1? "消费" : "充值";$/;"	v
+temp	util.php	/^        $temp = str_replace($value,'',$temp);$/;"	v
+temp	util.php	/^    $temp = $str;$/;"	v
+to_login	util.php	/^function to_login(){$/;"	f
+url	custom/add_custom.php	/^        $url = referer("m-custom.php");$/;"	v
+url	custom/edit_save_custom.php	/^$url = referer("m-custom.php");$/;"	v
+url	post/add_post.php	/^$url = referer("m-post.php");$/;"	v
+url	post/del_post.php	/^$url = referer("m-post.php");$/;"	v
+url	util.php	/^        $url = $_SERVER['HTTP_REFERER'];$/;"	v
+url	util.php	/^        $url = $str;$/;"	v
+url	worker/del_worker.php	/^$url = referer("m-worker.php");$/;"	v
+us	manage/add_manager.php	/^$us = $_POST['username'];$/;"	v
+us	manage/add_manager.php	/^$us = remove_unsafe_char($us);$/;"	v
+us	manage/save_edit_manager.php	/^$us = $_POST['username'];$/;"	v
+us	manage/save_edit_manager.php	/^$us = remove_unsafe_char($us);$/;"	v
+user	update_pw.php	/^    $user = $_SESSION['user'];$/;"	v
+username	auth_login.php	/^$username = remove_unsafe_char(trim($_POST['username']));$/;"	v
+username	conn.php	/^$username = "www";$/;"	v
+username	init.php	/^$username = "www";$/;"	v
+utf8	util.php	/^function utf8(){$/;"	f
+work	add_material/add_material_record.php	/^$work = remove_unsafe_char($_POST['charge']);$/;"	v
+worker	init.php	/^$worker = "create table if not exists worker ($/;"	v

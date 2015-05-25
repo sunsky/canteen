@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>标题</title>
+        <LINK REL=StyleSheet HREF="../static/main.css" TYPE="text/css" MEDIA=screen>
+        <style type="text/css" media="screen">
+            body{margin:0px; padding:0px; background:#f3f3f3; text-align:center;}
+            #main {width:800px; background:white; margin:0 auto; margin-top:20px; padding:10px; text-align:center; }
+            #main {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; }
+            #tail {clear:both;}
+            tr {width:100%;}
+            th,td {border-bottom:1px dashed #ccc; padding:5px 30px; text-align:left;}
+            #m-left {clear:left; float:left; margin-right:30px;}
+            #m-left ul {float:left;}
+            #m-left ul li {float:left;}
+            #main {float:left;}
+            #main table {text-align:left;}
+        </style>
+    </head>
+    <body>
+    <header style="text-align:center; padding: 20px ;margin: 0 auto;background: lightslategray;
+  color: #fff;
+  font-size: 30px;">
+        北京大学校园食堂管理系统
+        <span style="font-size:16px;">(v1.0.0)</span>
+    </header>
+    <div id="nav">
+        <ul>
+            <li>你好 <?php echo $_SESSION['user']; ?>!</li>
+            <li><a href="/admin_manage.php">管理</a></li>
+            <li><a href="/update_password.php">修改密码</a></li>
+            <li><a href="/logout.php">注销</a></li>
+        </ul>
+    </div>
+    <div id="m-left" style="float:left;">
+        <ul>
+            <li><a href="/student/m-student.php">学生管理</a></li>
+            <li><a href="/custom/m-custom.php">消费者管理</a></li>
+            <li><a href="/worker/m-worker.php">员工管理</a></li>
+            <li><a href="/post/m-post.php">职位管理</a></li>
+            <li><a href="/manage/m-manage.php">帐号管理</a></li>
+            <li><a href="/food/m-food.php">食物管理</a></li>
+            <li><a href="/material/m-material.php">食材管理</a></li>
+            <li><a href="/supply/m-supply.php">供应商管理</a></li>
+            <li><a href="/add_material/m-add_material.php">食材进货管理</a></li>
+            <li><a href="/add_custom/showall_custom_record.php">消费记录</a></li>
+        </ul>
+    </div>

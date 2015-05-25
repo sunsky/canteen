@@ -1,0 +1,103 @@
+<?php
+$username = "root";
+$password = "root";
+$hostname = "localhost";
+
+$db_name = "fantang";
+
+$db = mysql_connect($hostname, $username,$password);
+if (! $db)
+  die(mysql_error());
+mysql_select_db($db_name,$db);
+create table child(id int,parent_id int,foreign key (parent_id) references parent(id) on delete cascade) ; 
+$result = mysql_query("show databases",$db);
+while ($myrow = mysql_fetch_row($result))
+    echo $myrow[0]."<br/>";
+while($row = mysql_fetch_array($result))
+  echo $row['FirstName'] . " " . $row['LastName'];
+mysql_close($con);
+mysql_num_rows()
+?>
+
+
+session_start():启用session机制,在需要用到session的程序文件的最开始调用它.
+session_register():注册session变量
+session_unregister(): 删除session变量(一个一个删除)
+session_is_registered(): 判断session变量是否注册
+session_distroy(): 销毁所有session变量(所有session变量销毁)
+$val = "session value";
+session_register("val");
+session_start();
+$_SESSION['name'] = "abc";
+echo $_SESSION['name'];
+unset($_SESSION['userflag']);   
+echo "注销成功"; 
+
+intval floatval strval is_numeric
+
+$_SERVER['HTTP_REFERER']
+Header("HTTP/1.1 303 See Other");
+Header("Location: $url"); 
+exit; 
+<META HTTP-EQUIV="REFRESH" CONTENT="5; URL=<? echo $url;?>> 
+
+ul{ 
+list-style-type: none;   ( disc | circle | square | decimal )
+list-style-image: url(/blog/images/icon.gif); 
+margin:0px; 
+} 
+ul li{ 
+background:#CCC;
+float:left; 
+}
+
+
+$arr=array("one", "two", "three");
+foreach ($arr as $value)
+  echo "Value: " . $value . "<br />";
+
+
+if (strpos("hello google abc","abc"))
+    echo "yes";
+else
+    echo "no";
+
+
+header("Content-Type:text/html; charset=gbk");
+header("Content-type: text/html; charset=utf-8"); 
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+mysql_query("SET NAMES 'GBK'");
+mysql_query("set names 'utf8');
+my.ini
+default-character-set = utf8
+
+$test=array(
+    'name'=>100,
+    'age' => 32);
+
+<table border="1">
+	<tr><th>Heading</th><th>Another Heading</th></tr>
+	<tr><td>row 1, cell 1</td><td>row 1, cell 2</td></tr>
+</table>
+
+NOW()函数以`'YYYY-MM-DD HH:MM:SS'返回当前的日期时间，可以直接存到DATETIME字段中。 
+CURDATE()以'YYYY-MM-DD'的格式返回今天的日期，可以直接存到DATE字段中。 
+CURTIME()以'HH:MM:SS'的格式返回当前的时间，可以直接存到TIME字段中。 
+例：insert into tablename (fieldname) values (now())
+
+
+<input type="checkbox" name="myqx[]" value=1>
+<input type="checkbox" name="myqx[]" value=2>
+<input type="checkbox" name="myqx[]" value=3>
+
+这样PHP就很好处理了，如下:
+$myqx = $_POST['myqx'];
+for($i=0;$i<count($myqx);$i++)
+echo $myqx[$i]."<br>";
+
+if 嵌入html
+<?php if (1==2): ?>
+<h3>1</h3>
+<?php else: ?>
+<h3>2</h3>
+<?php endif; ?>
